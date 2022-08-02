@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio014 Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 10px;
+        }
+        th, td{
+            border: 1px solid gray;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>DESAFIO SOBRE TABELAS</h1>
+    <caption>
+        TABELAS
+    </caption>
+    <table>
+        <thead>
+            <th>Área</th>
+            <th>Disciplinas</th>
+            <th>Notas</th>
+            <th>Médias</th>
+        </thead>
+        <thead>
+            <td rowspan="2">Nota 1</td>
+            <td rowspan="2">Nota 2</td>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4">Exatas</th>
+                <td>Matemática</td>
+                <td>0</td>~
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Fisica</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Quimica</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tbody>
+                <th colspan="3">Médias Exatas</th>
+                <td>0.0</td>
+            </tbody>
+            <tr>
+                <th rowspan="3">Humanas</th>
+                <td>História</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tbody>
+                <th colspan="3">Médias Humanas</th>
+                <td>0.0</td>
+            </tbody>
+        </tbody>
+    </table>
+</body>
+</html>
