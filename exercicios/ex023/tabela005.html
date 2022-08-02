@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios de Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 8px;
+        }
+        col.cnome{
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicios de Tabelas</h1>
+    <table>
+        <caption>Cadastro</caption>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idades</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>Feminino</td>
+            <td>25 Anos</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Paulo Jorge</td>
+            <td>Masculino</td>
+            <td>34 Anos</td>
+            <td>Economista</td>
+        </tr>
+        <tr>
+            <td>Joana Reis</td>
+            <td>Feminino</td>
+            <td>54 Anos</td>
+            <td>Bancária</td>
+        </tr>
+        <tr>
+            <td>Luis Gomes</td>
+            <td>Feminino</td>
+            <td>45 Anos</td>
+            <td>Carpinteiro</td>
+        </tr>
+        <tr>
+            <td>Pedro Sousa</td>
+            <td>Feminino</td>
+            <td>55 Anos</td>
+            <td>Empresário</td>
+        </tr>
+    </table>
+</body>
+</html>
